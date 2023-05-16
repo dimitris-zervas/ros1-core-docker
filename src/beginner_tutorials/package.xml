@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>beginner_tutorials</name>
+  <version>0.0.0</version>
+  <description>The beginner_tutorials package</description>
+
+
+  <license>MIT</license>
+  <maintainer email="root@todo.todo">root</maintainer>
+  <author email="jane.doe@example.com">Jane Doe</author>
+
+  <!-- Dependencies -->
+
+  <!-- Use buildtool_depend for build tool packages: -->
+  <!--   <buildtool_depend>catkin</buildtool_depend> -->
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <!-- Build dependencies -->
+  <!-- Use build_depend for packages you need at compile time: -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  
+  <!-- Build export dependencies -->
+  <!-- Use build_export_depend for packages you need in order to build against this package: -->
+  <!-- <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend> -->
+  
+  <!-- Executable dependencies -->
+  <!-- Use exec_depend for packages you need at runtime: -->
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  
+  </export>
+</package>
